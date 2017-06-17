@@ -1,0 +1,1651 @@
+[
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30001813",
+      "CustomerName": "IPS CUSTOM AUTOMATION",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-08T05:00:00",
+      "End": "2017-06-30T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-10T05:00:00",
+      "DaysBeforeSpud": 2,
+      "MobilizationDurationDays": 4,
+      "WarehousePreparationDays": 6
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "high",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61006272,
+      "Name": "Annie_TestDemo Customer"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004497",
+        "WellName": "MOODY ESTATES GU 1",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002396",
+        "WellSectionId": "J.17.002396.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11313,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Shivam Rawat",
+        "PersonnelId": "05673660",
+        "Job_Id": "J.17.002396",
+        "Email": "SRawat@exchange.slb.com",
+        "PhoneNumber": "",
+        "Id": 11193,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-23T00:30:11.87",
+    "CreatedBy": "SRawat",
+    "LastModifiedDate": "2017-05-23T09:40:07.67",
+    "LastModifiedBy": "SRawat",
+    "RowVersion": "AAAAAAAAnZM=",
+    "Id": "J.17.002396",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MWP",
+      "SubSegmentName": "Wellbore Productivity"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-08T05:00:00",
+      "End": "2017-06-11T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-10T05:00:00",
+      "DaysBeforeSpud": 2,
+      "MobilizationDurationDays": 2,
+      "WarehousePreparationDays": 1
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "TOOLS",
+    "SubSubSegmentDescription": "Tools & Filtration",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": true,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": null,
+      "Name": ""
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002576",
+        "WellSectionId": "J.17.002576.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002576.01.01",
+            "Duration": {
+              "Start": "2017-06-10T10:00:00",
+              "End": "2017-06-11T10:00:00"
+            },
+            "BitSize": 99.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002576.01",
+            "Job_Id": "J.17.002576",
+            "CreatedDate": "2017-05-25T04:49:06.987",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-25T04:50:24.08",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAoEs=",
+            "Id": 9603,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11488,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002576",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "",
+        "Id": 11368,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-25T04:48:52.033",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-25T04:50:24.08",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAoEw=",
+    "Id": "J.17.002576",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MWP",
+      "SubSegmentName": "Wellbore Productivity"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-08T05:00:00",
+      "End": "2017-06-11T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-10T05:00:00",
+      "DaysBeforeSpud": 2,
+      "MobilizationDurationDays": 2,
+      "WarehousePreparationDays": 1
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "TOOLS",
+    "SubSubSegmentDescription": "Tools & Filtration",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": true,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": null,
+      "Name": ""
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002577",
+        "WellSectionId": "J.17.002577.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002577.01.01",
+            "Duration": {
+              "Start": "2017-06-10T10:00:00",
+              "End": "2017-06-10T10:00:00"
+            },
+            "BitSize": 99.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002577.01",
+            "Job_Id": "J.17.002577",
+            "CreatedDate": "2017-05-25T04:50:24.627",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-25T04:51:05.393",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAoFQ=",
+            "Id": 9604,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002577.01.02",
+            "Duration": {
+              "Start": "2017-06-10T05:00:00",
+              "End": "2017-06-10T05:00:00"
+            },
+            "BitSize": 98.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002577.01",
+            "Job_Id": "J.17.002577",
+            "CreatedDate": "2017-05-25T04:50:31.94",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-25T04:51:05.393",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAoFU=",
+            "Id": 9605,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11489,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002577",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "",
+        "Id": 11369,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-25T04:50:24.08",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-25T04:51:05.393",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAoFY=",
+    "Id": "J.17.002577",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MWP",
+      "SubSegmentName": "Wellbore Productivity"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30002707",
+      "CustomerName": "EXXON CHEMICAL AMERICAS",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-04T05:00:00",
+      "End": "2017-07-07T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-07T05:00:00",
+      "DaysBeforeSpud": 3,
+      "MobilizationDurationDays": 2,
+      "WarehousePreparationDays": 2
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "TOOLS",
+    "SubSubSegmentDescription": "Tools & Filtration",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61000481,
+      "Name": "MAYFIELD N"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004595",
+        "WellName": "EXXON FEE-PECAN ISLAND",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.001710",
+        "WellSectionId": "J.17.001710.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.001710.01.01",
+            "Duration": {
+              "Start": "2017-05-10T20:00:00",
+              "End": "2017-05-11T20:00:00"
+            },
+            "BitSize": 99.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.001710.01",
+            "Job_Id": "J.17.001710",
+            "CreatedDate": "2017-05-10T04:15:07.277",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:41:41.77",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAoAM=",
+            "Id": 8683,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.001710.01.02",
+            "Duration": {
+              "Start": "2017-05-10T20:00:00",
+              "End": "2017-05-11T20:00:00"
+            },
+            "BitSize": 98.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.001710.01",
+            "Job_Id": "J.17.001710",
+            "CreatedDate": "2017-05-10T04:15:07.277",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:41:41.77",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAoAQ=",
+            "Id": 8684,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.001710.01.03",
+            "Duration": {
+              "Start": "2017-05-10T20:00:00",
+              "End": "2017-05-11T20:00:00"
+            },
+            "BitSize": 97.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.001710.01",
+            "Job_Id": "J.17.001710",
+            "CreatedDate": "2017-05-10T04:15:07.277",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:41:41.77",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAoAU=",
+            "Id": 8685,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.001710.01.04",
+            "Duration": {
+              "Start": "2017-05-10T15:00:00",
+              "End": "2017-05-11T15:00:00"
+            },
+            "BitSize": 96.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.001710.01",
+            "Job_Id": "J.17.001710",
+            "CreatedDate": "2017-05-10T04:20:51.81",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:41:41.77",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAoAY=",
+            "Id": 8686,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 10639,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Ankit Gupta",
+        "PersonnelId": "05806575",
+        "Job_Id": "J.17.001710",
+        "Email": "AGupta63@exchange.slb.com",
+        "PhoneNumber": "+91 95382 89270",
+        "Id": 10517,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-10T04:14:13.417",
+    "CreatedBy": "AGupta63",
+    "LastModifiedDate": "2017-05-25T01:41:41.77",
+    "LastModifiedBy": "AGupta63",
+    "RowVersion": "AAAAAAAAoAc=",
+    "Id": "J.17.001710",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MDS",
+      "SubSegmentName": "Drilling Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30002707",
+      "CustomerName": "EXXON CHEMICAL AMERICAS",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-05T00:00:00",
+      "End": "2017-08-31T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-07T00:00:00",
+      "DaysBeforeSpud": 2,
+      "MobilizationDurationDays": 2,
+      "WarehousePreparationDays": 2
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61000481,
+      "Name": "MAYFIELD N"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004595",
+        "WellName": "EXXON FEE-PECAN ISLAND",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002263",
+        "WellSectionId": "J.17.002263.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002263.01.01",
+            "Duration": {
+              "Start": "2017-06-07T00:00:00",
+              "End": "2017-06-08T00:00:00"
+            },
+            "BitSize": 9.000,
+            "ReamerSize": 10.000,
+            "TopDepth": 234.00,
+            "BotDepth": 454.00,
+            "ServiceType": "WBM",
+            "DurationDays": 2,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002263.01",
+            "Job_Id": "J.17.002263",
+            "CreatedDate": "2017-05-19T04:10:46.807",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-19T04:11:50.417",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAmuk=",
+            "Id": 9298,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002263.01.02",
+            "Duration": {
+              "Start": "2017-06-09T00:00:00",
+              "End": "2017-06-10T00:00:00"
+            },
+            "BitSize": 8.000,
+            "ReamerSize": 9.000,
+            "TopDepth": 454.00,
+            "BotDepth": 678.00,
+            "ServiceType": "WBM",
+            "DurationDays": 2,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002263.01",
+            "Job_Id": "J.17.002263",
+            "CreatedDate": "2017-05-19T04:10:46.807",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-19T04:11:50.417",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAmuo=",
+            "Id": 9299,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002263.01.03",
+            "Duration": {
+              "Start": "2017-06-11T00:00:00",
+              "End": "2017-06-12T00:00:00"
+            },
+            "BitSize": 7.000,
+            "ReamerSize": 8.000,
+            "TopDepth": 678.00,
+            "BotDepth": 789.00,
+            "ServiceType": "WBM",
+            "DurationDays": 2,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002263.01",
+            "Job_Id": "J.17.002263",
+            "CreatedDate": "2017-05-19T04:11:50.417",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-19T04:11:50.417",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAmuw=",
+            "Id": 9300,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002263.01.04",
+            "Duration": {
+              "Start": "2017-06-13T00:00:00",
+              "End": "2017-06-14T00:00:00"
+            },
+            "BitSize": 6.000,
+            "ReamerSize": 7.000,
+            "TopDepth": 789.00,
+            "BotDepth": 976.00,
+            "ServiceType": "WBM",
+            "DurationDays": 2,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002263.01",
+            "Job_Id": "J.17.002263",
+            "CreatedDate": "2017-05-19T04:11:50.417",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-19T04:11:50.417",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAmu0=",
+            "Id": 9301,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002263.01.05",
+            "Duration": {
+              "Start": "2017-06-15T00:00:00",
+              "End": "2017-06-18T00:00:00"
+            },
+            "BitSize": 5.000,
+            "ReamerSize": 6.000,
+            "TopDepth": 976.00,
+            "BotDepth": 1789.00,
+            "ServiceType": "WBM",
+            "DurationDays": 4,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002263.01",
+            "Job_Id": "J.17.002263",
+            "CreatedDate": "2017-05-19T04:11:50.417",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-19T04:11:50.417",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAmu4=",
+            "Id": 9302,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11189,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Ankit Gupta",
+        "PersonnelId": "05806575",
+        "Job_Id": "J.17.002263",
+        "Email": "AGupta63@exchange.slb.com",
+        "PhoneNumber": "+91 95382 89270",
+        "Id": 11069,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-19T04:01:29.993",
+    "CreatedBy": "AGupta63",
+    "LastModifiedDate": "2017-05-19T04:11:50.417",
+    "LastModifiedBy": "AGupta63",
+    "RowVersion": "AAAAAAAAmus=",
+    "Id": "J.17.002263",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MWP",
+      "SubSegmentName": "Wellbore Productivity"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30002707",
+      "CustomerName": "EXXON CHEMICAL AMERICAS",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-07T00:00:00",
+      "End": "2017-06-08T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-07T00:00:00",
+      "DaysBeforeSpud": 3,
+      "MobilizationDurationDays": 2,
+      "WarehousePreparationDays": 1
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "TOOLS",
+    "SubSubSegmentDescription": "Tools & Filtration",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61000481,
+      "Name": "MAYFIELD N"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002562",
+        "WellSectionId": "J.17.002562.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002562.01.01",
+            "Duration": {
+              "Start": "2017-06-07T00:00:00",
+              "End": "2017-06-07T00:00:00"
+            },
+            "BitSize": 99.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002562.01",
+            "Job_Id": "J.17.002562",
+            "CreatedDate": "2017-05-25T01:42:50.113",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:42:50.113",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAoBY=",
+            "Id": 9597,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002562.01.02",
+            "Duration": {
+              "Start": "2017-06-07T00:00:00",
+              "End": "2017-06-07T00:00:00"
+            },
+            "BitSize": 98.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002562.01",
+            "Job_Id": "J.17.002562",
+            "CreatedDate": "2017-05-25T01:42:50.113",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:42:50.113",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAoBc=",
+            "Id": 9598,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002562.01.03",
+            "Duration": {
+              "Start": "2017-06-07T00:00:00",
+              "End": "2017-06-07T00:00:00"
+            },
+            "BitSize": 97.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002562.01",
+            "Job_Id": "J.17.002562",
+            "CreatedDate": "2017-05-25T01:42:50.113",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:42:50.113",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAoBg=",
+            "Id": 9599,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002562.01.04",
+            "Duration": {
+              "Start": "2017-06-07T00:00:00",
+              "End": "2017-06-07T00:00:00"
+            },
+            "BitSize": 96.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002562.01",
+            "Job_Id": "J.17.002562",
+            "CreatedDate": "2017-05-25T01:42:50.113",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-25T01:42:50.113",
+            "LastModifiedBy": null,
+            "RowVersion": "AAAAAAAAoBk=",
+            "Id": 9600,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11474,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Ankit Gupta",
+        "PersonnelId": "05806575",
+        "Job_Id": "J.17.002562",
+        "Email": "AGupta63@exchange.slb.com",
+        "PhoneNumber": "+91 95382 89270",
+        "Id": 11354,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-25T01:42:49.053",
+    "CreatedBy": "AGupta63",
+    "LastModifiedDate": "2017-05-25T01:42:50.113",
+    "LastModifiedBy": "AGupta63",
+    "RowVersion": "AAAAAAAAoBo=",
+    "Id": "J.17.002562",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30004469",
+      "CustomerName": "ANADARKO PETROLEUM COMPANY",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63001091",
+      "RigName": "ROTARY EXPLORATION #2",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-04T00:00:00",
+      "End": "2017-06-07T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-06T00:00:00",
+      "DaysBeforeSpud": 2,
+      "MobilizationDurationDays": 1,
+      "WarehousePreparationDays": 0
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": null,
+      "Name": ""
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64006878",
+        "WellName": "SULPHUR BRINE STRAT TEST",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002430",
+        "WellSectionId": "J.17.002430.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11347,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Shivananda Dolappa",
+        "PersonnelId": "05020565",
+        "Job_Id": "J.17.002430",
+        "Email": "SDolappa@exchange.slb.com",
+        "PhoneNumber": "+1 832 820 4669",
+        "Id": 11227,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-23T11:44:05.933",
+    "CreatedBy": "SDolappa",
+    "LastModifiedDate": "2017-05-23T11:44:13.153",
+    "LastModifiedBy": "SDolappa",
+    "RowVersion": "AAAAAAAAnck=",
+    "Id": "J.17.002430",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MDS",
+      "SubSegmentName": "Drilling Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30001242",
+      "CustomerName": "EXOTHERMICS INC",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-04T00:00:00",
+      "End": "2017-06-30T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-05T00:00:00",
+      "DaysBeforeSpud": 1,
+      "MobilizationDurationDays": 1,
+      "WarehousePreparationDays": 1
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61000481,
+      "Name": "MAYFIELD N"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004595",
+        "WellName": "EXXON FEE-PECAN ISLAND",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002349",
+        "WellSectionId": "J.17.002349.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002349.01.01",
+            "Duration": {
+              "Start": "2017-06-05T00:00:00",
+              "End": "2017-06-05T00:00:00"
+            },
+            "BitSize": 9.000,
+            "ReamerSize": 10.000,
+            "TopDepth": 200.00,
+            "BotDepth": 300.00,
+            "ServiceType": "WBM",
+            "DurationDays": 0,
+            "BhaDescription": "",
+            "WellSectionId": "J.17.002349.01",
+            "Job_Id": "J.17.002349",
+            "CreatedDate": "2017-05-22T07:00:25.827",
+            "CreatedBy": "AGupta63",
+            "LastModifiedDate": "2017-05-22T07:09:24.137",
+            "LastModifiedBy": "AGupta63",
+            "RowVersion": "AAAAAAAAnMM=",
+            "Id": 9396,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11274,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Ankit Gupta",
+        "PersonnelId": "05806575",
+        "Job_Id": "J.17.002349",
+        "Email": "AGupta63@exchange.slb.com",
+        "PhoneNumber": "+91 95382 89270",
+        "Id": 11154,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-22T07:00:06.98",
+    "CreatedBy": "AGupta63",
+    "LastModifiedDate": "2017-05-22T07:09:24.137",
+    "LastModifiedBy": "AGupta63",
+    "RowVersion": "AAAAAAAAnMQ=",
+    "Id": "J.17.002349",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-03T10:00:00",
+      "End": "2017-06-04T10:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-03T10:00:00",
+      "DaysBeforeSpud": 0,
+      "MobilizationDurationDays": 0,
+      "WarehousePreparationDays": 0
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61001502,
+      "Name": "LAGRANGE"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002272",
+        "WellSectionId": "J.17.002272.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11198,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002272",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "+19900000000",
+        "Id": 11078,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-19T05:45:10.26",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-25T04:35:18.167",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAoCg=",
+    "Id": "J.17.002272",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-02T05:00:00",
+      "End": "2017-06-04T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-03T05:00:00",
+      "DaysBeforeSpud": 1,
+      "MobilizationDurationDays": 1,
+      "WarehousePreparationDays": 2
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61001502,
+      "Name": "LAGRANGE"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002571",
+        "WellSectionId": "J.17.002571.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11483,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002571",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "+19900000000",
+        "Id": 11363,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-25T04:36:34.697",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-25T04:43:35.55",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAoDM=",
+    "Id": "J.17.002571",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-03T05:00:00",
+      "End": "2017-06-04T05:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-03T05:00:00",
+      "DaysBeforeSpud": 0,
+      "MobilizationDurationDays": 0,
+      "WarehousePreparationDays": 0
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61001502,
+      "Name": "LAGRANGE"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002574",
+        "WellSectionId": "J.17.002574.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11486,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002574",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "+19900000000",
+        "Id": 11366,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-25T04:45:09.643",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-25T04:46:06.783",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAoEA=",
+    "Id": "J.17.002574",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MES",
+      "SubSegmentName": "Environmental Solutions"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "",
+      "RigName": "",
+      "ExternalKey": ""
+    },
+    "JobDuration": {
+      "Start": "2017-06-02T00:00:00",
+      "End": "2017-07-01T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-03T00:00:00",
+      "DaysBeforeSpud": 1,
+      "MobilizationDurationDays": 1,
+      "WarehousePreparationDays": 1
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "",
+    "SubSubSegmentDescription": "",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": null,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61001502,
+      "Name": "LAGRANGE"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002245",
+        "WellSectionId": "J.17.002245.01",
+        "HoleSections": [
+
+        ],
+        "Id": 11171,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002245",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "+19900000000",
+        "Id": 11051,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-19T00:20:19.047",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-19T00:58:26.413",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAmqg=",
+    "Id": "J.17.002245",
+    "ObjectState": 0
+  },
+  {
+    "OpsLocationInfo": {
+      "OpsLocationCode": "MI-BROS",
+      "OpsLocationDesc": "M-I SWACO Broussard, LA",
+      "TimezoneStandardName": "Central Standard Time"
+    },
+    "PlantInfo": {
+      "PlantCode": "1092",
+      "PlantName": "BROUSSARD, LA PLANT - EQUIPMEN"
+    },
+    "SegmentInfo": {
+      "SegmentCode": "M-I",
+      "SegmentName": "M-I SWACO",
+      "SubSegmentCode": "MWP",
+      "SubSegmentName": "Wellbore Productivity"
+    },
+    "CustomerInfo": {
+      "CustomerNumber": "30000301",
+      "CustomerName": "BACCUS DRILLING CO",
+      "ExternalKey": "SP"
+    },
+    "RigInfo": {
+      "RigNumber": "63000190",
+      "RigName": "Rigless Workover - WL Mast",
+      "ExternalKey": "Z7"
+    },
+    "JobDuration": {
+      "Start": "2017-06-02T00:00:00",
+      "End": "2017-06-20T00:00:00"
+    },
+    "ScheduleInfo": {
+      "SpudDate": "2017-06-03T00:00:00",
+      "DaysBeforeSpud": 1,
+      "MobilizationDurationDays": 1,
+      "WarehousePreparationDays": 0
+    },
+    "ExternalInfo": null,
+    "SubSubSegmentCode": "TOOLS",
+    "SubSubSegmentDescription": "Tools & Filtration",
+    "BookingStatus": "CN",
+    "Probability": null,
+    "SubGeoMarket": "NGC",
+    "Displacement_brine_servicegroups": null,
+    "Filtration_servicegroups": true,
+    "JobCriticality": "low",
+    "IPMProjectNumber": "",
+    "ProjectName": "",
+    "Field": {
+      "Number": 61001502,
+      "Name": "LAGRANGE"
+    },
+    "JobStatus": 1,
+    "JobState": 0,
+    "JobLifeCycleFlag": "",
+    "JobRisk": "",
+    "Wells": [
+      {
+        "WellNumber": "64004797",
+        "WellName": "TARGA-MAXWELL",
+        "ExternalKey": "ZW",
+        "Job_Id": "J.17.002333",
+        "WellSectionId": "J.17.002333.01",
+        "HoleSections": [
+          {
+            "HoleSectionId": "J.17.002333.01.01",
+            "Duration": {
+              "Start": "2017-05-24T05:00:00",
+              "End": "2017-05-24T05:00:00"
+            },
+            "BitSize": 99.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "Test 1",
+            "WellSectionId": "J.17.002333.01",
+            "Job_Id": "J.17.002333",
+            "CreatedDate": "2017-05-22T01:54:09.587",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-23T23:55:36.85",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAnjA=",
+            "Id": 9381,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002333.01.02",
+            "Duration": {
+              "Start": "2017-05-24T05:00:00",
+              "End": "2017-05-24T05:00:00"
+            },
+            "BitSize": 98.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "Test 2",
+            "WellSectionId": "J.17.002333.01",
+            "Job_Id": "J.17.002333",
+            "CreatedDate": "2017-05-22T01:54:09.587",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-23T23:55:36.85",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAnjE=",
+            "Id": 9382,
+            "ObjectState": 0
+          },
+          {
+            "HoleSectionId": "J.17.002333.01.03",
+            "Duration": {
+              "Start": "2017-05-24T05:00:00",
+              "End": "2017-05-24T05:00:00"
+            },
+            "BitSize": 97.000,
+            "ReamerSize": 0.000,
+            "TopDepth": 0.00,
+            "BotDepth": 0.00,
+            "ServiceType": "",
+            "DurationDays": 0,
+            "BhaDescription": "Test 3",
+            "WellSectionId": "J.17.002333.01",
+            "Job_Id": "J.17.002333",
+            "CreatedDate": "2017-05-22T01:54:09.587",
+            "CreatedBy": "TSubramanya2",
+            "LastModifiedDate": "2017-05-23T23:55:36.85",
+            "LastModifiedBy": "TSubramanya2",
+            "RowVersion": "AAAAAAAAnjI=",
+            "Id": 9383,
+            "ObjectState": 0
+          }
+        ],
+        "Id": 11258,
+        "ObjectState": 0
+      }
+    ],
+    "SlbContacts": [
+      {
+        "JobRole": "Project Engineer",
+        "Name": "Thejaswini Subramanya",
+        "PersonnelId": "05910955",
+        "Job_Id": "J.17.002333",
+        "Email": "TSubramanya2@exchange.slb.com",
+        "PhoneNumber": "",
+        "Id": 11138,
+        "ObjectState": 0
+      }
+    ],
+    "CustomerContacts": [
+
+    ],
+    "CreatedDate": "2017-05-22T01:54:08.117",
+    "CreatedBy": "TSubramanya2",
+    "LastModifiedDate": "2017-05-23T23:55:36.85",
+    "LastModifiedBy": "TSubramanya2",
+    "RowVersion": "AAAAAAAAnjM=",
+    "Id": "J.17.002333",
+    "ObjectState": 0
+  }
+]
