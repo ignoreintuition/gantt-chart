@@ -1,34 +1,34 @@
-// tasks
-var tasks = [
-  { "startDate": new Date("Sun Dec 09 00:00:45 EST 2012"),"endDate": new Date("Sun Dec 09 02:36:45 EST 2012"), "taskName": "E Job" },
-  { "startDate": new Date("Sun Dec 09 08:49:53 EST 2012"),"endDate": new Date("Sun Dec 09 06:34:04 EST 2012"), "taskName": "D Job" },
-  { "startDate": new Date("Sun Dec 09 03:27:35 EST 2012"),"endDate": new Date("Sun Dec 09 03:58:43 EST 2012"), "taskName": "P Job" },
-  { "startDate": new Date("Sun Dec 09 03:27:35 EST 2012"),"endDate": new Date("Sun Dec 09 03:58:43 EST 2012"), "taskName": "N Job" }
+// data
+var data = [
+  { "startDate": new Date("Sun Dec 09 00:00:45 EST 2012"),"endDate": new Date("Sun Dec 09 02:36:45 EST 2012"), "customerName": "Cust 3" },
+  { "startDate": new Date("Sun Dec 09 08:49:53 EST 2012"),"endDate": new Date("Sun Dec 09 06:34:04 EST 2012"), "customerName": "Cust 1" },
+  { "startDate": new Date("Sun Dec 09 03:27:35 EST 2012"),"endDate": new Date("Sun Dec 09 03:58:43 EST 2012"), "customerName": "Cust 2" },
+  { "startDate": new Date("Sun Dec 09 03:27:35 EST 2012"),"endDate": new Date("Sun Dec 09 03:58:43 EST 2012"), "customerName": "Cust 4" }
 ];
 
 
-// task names
-var taskNames = ["D Job", "P Job", "E Job", "A Job", "N Job"];
+// customer names
+var customerNames = ["Cust 1", "Cust 2", "Cust 3", "Cust 4"];
 
 
-// sort data in ascending order by task end date
-tasks.sort(function(a, b) {
+// sort data in ascending order by job end date
+data.sort(function(a, b) {
   return a.endDate - b.endDate;
 });
 
 
 // calculate maximum date
-var maxDate = tasks[tasks.length - 1].endDate;
+var maxDate = data[data.length - 1].endDate;
 
 
-// sort data in ascending order by task start date
-tasks.sort(function(a, b) {
+// sort data in ascending order by job start date
+data.sort(function(a, b) {
   return a.startDate - b.startDate;
 });
 
 
 // calculate minimum date
-var minDate = tasks[0].startDate;
+var minDate = data[0].startDate;
 
 
 // x-axis tick datetime format
@@ -42,7 +42,7 @@ var timeDomainString = "1day";
 // setup gantt chart
 var gantt = d3.gantt().svgHeight(450)
                       .svgWidth(800)
-                      .taskTypes(taskNames)
+                      .customerNames(customerNames)
                       .tickFormat(format);
 
 
@@ -51,7 +51,7 @@ changeTimeDomain(timeDomainString);
 
 
 // create gantt chart
-gantt(tasks);
+gantt(data);
 
 
 function changeTimeDomain(timeDomainString) {
@@ -105,15 +105,15 @@ function changeTimeDomain(timeDomainString) {
 
 
   // redraw gantt chart
-  gantt.redraw(tasks);
+  gantt.redraw(data);
 }
 
 
 function getEndDate() {
   var lastEndDate = Date.now();
 
-  if (tasks.length > 0) {
-    lastEndDate = tasks[tasks.length - 1].endDate;
+  if (data.length > 0) {
+    lastEndDate = data[data.length - 1].endDate;
   }
 
   return lastEndDate;

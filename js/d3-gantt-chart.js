@@ -16,8 +16,8 @@ d3.gantt = function() {
   var timeDomainEnd = d3.timeHour.offset(new Date(), + 3);
 
 
-  // task info
-  var taskTypes = [];
+  // customer info
+  var customerNames = [];
 
 
   // x-axis tick format
@@ -25,12 +25,12 @@ d3.gantt = function() {
 
 
   var keyFunction = function(d) {
-    return d.startDate + d.taskName + d.endDate;
+    return d.startDate + d.customerName + d.endDate;
   };
 
 
   var rectTransform = function(d) {
-    return "translate(" + x(d.startDate) + "," + y(d.taskName) + ")";
+    return "translate(" + x(d.startDate) + "," + y(d.customerName) + ")";
   };
 
 
@@ -46,30 +46,30 @@ d3.gantt = function() {
 
   var setupTimeDomain = function() {
     if (timeDomainMode === FIT_TIME_DOMAIN_MODE) {
-      if (tasks === undefined || tasks.length < 1) {
+      if (data === undefined || data.length < 1) {
         timeDomainStart = d3.timeDay.offset(new Date(), - 3);
         timeDomainEnd = d3.timeHour.offset(new Date(), + 3);
         return;
       }
 
-      // sort data in ascending order by task end date
-      tasks.sort(function(a, b) {
+      // sort data in ascending order by job end date
+      data.sort(function(a, b) {
         return a.endDate - b.endDate;
       });
 
 
       // calculate time domain end date
-      timeDomainEnd = tasks[tasks.length - 1].endDate;
+      timeDomainEnd = data[data.length - 1].endDate;
 
 
-      // sort data in ascending order by task start date
-      tasks.sort(function(a, b) {
+      // sort data in ascending order by job start date
+      data.sort(function(a, b) {
         return a.startDate - b.startDate;
       });
 
 
       // calculate time domain start date
-      timeDomainStart = tasks[0].startDate;
+      timeDomainStart = data[0].startDate;
     }
   };
 
@@ -88,7 +88,7 @@ d3.gantt = function() {
     // calculate y-position using scaleBand()
     y = d3.scaleBand()
           // input domain
-          .domain(taskTypes)
+          .domain(customerNames)
           // output range
           .range([0, svgHeight - svgMargin.top - svgMargin.bottom])
           // padding
@@ -112,7 +112,7 @@ d3.gantt = function() {
   };
 
 
-  function gantt(tasks) {
+  function gantt(data) {
     // setup datetime domain
     setupTimeDomain();
 
@@ -145,7 +145,7 @@ d3.gantt = function() {
     // make selection of <rect> elements
     svg.selectAll(".chart")
       // bind data
-      .data(tasks, keyFunction)
+      .data(data, keyFunction)
         // create placeholder for each missing <rect>
         .enter()
           // create <rect>
@@ -160,9 +160,9 @@ d3.gantt = function() {
             .attr("y", 0)
             // transform
             .attr("transform", rectTransform)
-            // height
+            // height: use bandwidth scale to calculate height
             .attr("height", function(d) {
-              return 30;
+              return y.bandwidth();
             })
             // width
             .attr("width", function(d) {
@@ -196,7 +196,7 @@ d3.gantt = function() {
   };
 
 
-  gantt.redraw = function(tasks) {
+  gantt.redraw = function(data) {
     // setup datetime domain
     setupTimeDomain();
 
@@ -216,7 +216,7 @@ d3.gantt = function() {
     // create <rect> elements inside <svg> element
     var rect = ganttChartGroup.selectAll("rect")
                               // bind data item to <rect>
-                              .data(tasks, keyFunction);
+                              .data(data, keyFunction);
 
 
     // create placeholder for each missing <rect>
@@ -235,7 +235,7 @@ d3.gantt = function() {
       .attr("y", 0)
       // move position of <rect> element
       .attr("transform", rectTransform)
-      // height
+      // height: use bandwidth scale to calculate height
       .attr("height", function(d) {
         return y.bandwidth();
       })
@@ -310,11 +310,11 @@ d3.gantt = function() {
   };
 
 
-  gantt.taskTypes = function(value) {
+  gantt.customerNames = function(value) {
     if (!arguments.length)
-      return taskTypes;
+      return customerNames;
 
-    taskTypes = value;
+    customerNames = value;
     return gantt;
   };
 
