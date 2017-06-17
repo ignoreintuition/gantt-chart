@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
+<title>Gantt Chart</title>
 <!-- bootstrap css -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- custom css -->
@@ -12,6 +12,66 @@
 </head>
 
 <body>
+<div class="container">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <!-- toggle button -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- brand -->
+    <a class="navbar-brand" href="#">Gantt Chart</a>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <!-- menu -->
+      <ul class="navbar-nav">
+        <!-- menu item 1 -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <!-- menu item 2 -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <!-- menu item 3 -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+      </ul>
+    </div><!-- /.collapse -->
+  </nav>
+</div><!-- /.container -->
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="error-message">
+
+      </div><!-- /#error-message -->
+    </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <div id="svg-container">
+
+      </div><!-- /#svg-container -->
+    </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <div id="button-container" class="float-right">
+        <button class="btn btn-primary" type="button" onclick="changeTimeDomain('1hr')">1 HR</button>
+        <button class="btn btn-secondary" type="button" onclick="changeTimeDomain('3hr')">3 HR</button>
+        <button class="btn btn-secondary" type="button" onclick="changeTimeDomain('6hr')">6 HR</button>
+        <button class="btn btn-secondary" type="button" onclick="changeTimeDomain('1day')">1 DAY</button>
+        <button class="btn btn-primary" type="button" onclick="changeTimeDomain('1week')">1 WEEK</button>
+      </div><!-- /.button-container -->
+    </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+</div><!-- /.container -->
 
 <!-- jquery -->
 <script src="js/jquery.min.js"></script>
