@@ -1,0 +1,16 @@
+html,
+body,
+#wrapper {
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+}
+.chart {
+	font: 12px Arial, sans-serif;
+}
+.axis path,
+.axis line {
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke: #000;
+}
