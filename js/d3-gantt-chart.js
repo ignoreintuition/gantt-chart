@@ -25,12 +25,12 @@ d3.gantt = function() {
 
 
   var keyFunction = function(d) {
-    return d.startDate + d.customerName + d.endDate;
+    return d.JobDuration.Start + d.CustomerInfo.CustomerName + d.JobDuration.End;
   };
 
 
   var rectTransform = function(d) {
-    return "translate(" + x(d.startDate) + "," + y(d.customerName) + ")";
+    return "translate(" + x(d.JobDuration.Start) + "," + y(d.CustomerInfo.CustomerName) + ")";
   };
 
 
@@ -54,22 +54,22 @@ d3.gantt = function() {
 
       // sort data in ascending order by job end date
       data.sort(function(a, b) {
-        return a.endDate - b.endDate;
+        return a.JobDuration.End - b.JobDuration.End;
       });
 
 
       // calculate time domain end date
-      timeDomainEnd = data[data.length - 1].endDate;
+      timeDomainEnd = data[data.length - 1].JobDuration.End;
 
 
       // sort data in ascending order by job start date
       data.sort(function(a, b) {
-        return a.startDate - b.startDate;
+        return a.JobDuration.Start - b.JobDuration.Start;
       });
 
 
       // calculate time domain start date
-      timeDomainStart = data[0].startDate;
+      timeDomainStart = data[0].JobDuration.Start;
     }
   };
 
@@ -166,7 +166,7 @@ d3.gantt = function() {
             })
             // width
             .attr("width", function(d) {
-              return (x(d.endDate) - x(d.startDate));
+              return (x(d.JobDuration.End) - x(d.JobDuration.Start));
             });
 
 
@@ -241,7 +241,7 @@ d3.gantt = function() {
       })
       // width
       .attr("width", function(d) {
-         return (x(d.endDate) - x(d.startDate));
+         return (x(d.JobDuration.End) - x(d.JobDuration.Start));
       });
 
 
@@ -255,7 +255,7 @@ d3.gantt = function() {
         })
         // width
         .attr("width", function(d) {
-          return (x(d.endDate) - x(d.startDate));
+          return (x(d.JobDuration.End) - x(d.JobDuration.Start));
         });
 
 
