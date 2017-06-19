@@ -74,7 +74,7 @@ d3.json("data/jobs-03.json", function(error, data) {
 
 
   // set default time domain
-  var timeDomainString = "1day";
+  var timeDomainString = "6months";
 
 
   // setup gantt chart
@@ -97,27 +97,6 @@ d3.json("data/jobs-03.json", function(error, data) {
     this.timeDomainString = timeDomainString;
 
     switch (timeDomainString) {
-      case "1hr":
-        // set datetime format
-        format = "%H:%M:%S";
-        // set time domain
-        gantt.timeDomain([d3.timeHour.offset(getEndDate(), -1), getEndDate()]);
-        break;
-
-      case "3hr":
-        // set datetime format
-        format = "%H:%M";
-        // set time domain
-        gantt.timeDomain([d3.timeHour.offset(getEndDate(), -3), getEndDate()]);
-        break;
-
-      case "6hr":
-        // set datetime format
-        format = "%H:%M";
-        // set time domain
-        gantt.timeDomain([d3.timeHour.offset(getEndDate(), -6), getEndDate()]);
-        break;
-
       case "1day":
         // set datetime format
         format = "%H:%M";
@@ -127,9 +106,37 @@ d3.json("data/jobs-03.json", function(error, data) {
 
       case "1week":
         // set datetime format
-        format = "%a %H:%M";
+        format = "%a %b/%d";
         // set time domain
         gantt.timeDomain([d3.timeDay.offset(getEndDate(), -7), getEndDate()]);
+        break;
+
+      case "2weeks":
+        // set datetime format
+        format = "%b/%d";
+        // set time domain
+        gantt.timeDomain([d3.timeDay.offset(getEndDate(), -14), getEndDate()]);
+        break;
+
+      case "1month":
+        // set datetime format
+        format = "%b %d";
+        // set time domain
+        gantt.timeDomain([d3.timeDay.offset(getEndDate(), -30), getEndDate()]);
+        break;
+
+      case "3months":
+        // set datetime format
+        format = "%b %d";
+        // set time domain
+        gantt.timeDomain([d3.timeDay.offset(getEndDate(), -90), getEndDate()]);
+        break;
+
+      case "6months":
+        // set datetime format
+        format = "%b %d";
+        // set time domain
+        gantt.timeDomain([d3.timeDay.offset(getEndDate(), -180), getEndDate()]);
         break;
 
       default:
