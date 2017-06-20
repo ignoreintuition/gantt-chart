@@ -163,4 +163,29 @@ d3.json("data/jobs-03.json", function(error, data) {
 
     return lastEndDate;
   }
+
+  $('#oneDay').on('click', function(){
+    changeTimeDomain('1day')
+  })
+
+  $('#oneWeek').on('click', function(){
+    changeTimeDomain('1week')
+  })
+
+  $('#twoWeeks').on('click', function(){
+    changeTimeDomain('2weeks')
+  })
+
+  $('#oneMonth').on('click', function(){
+    changeTimeDomain('1month')
+  })
+
+  $('#threeMonths').on('click', function(){
+    changeTimeDomain('3months')
+  })
+
+  $('#sixMonths').on('click', function(){
+    changeTimeDomain('6months')
+  })
+
 });
